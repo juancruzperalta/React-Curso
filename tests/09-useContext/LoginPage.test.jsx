@@ -20,6 +20,7 @@ describe("Pruebas en <LoginPage/>", () => {
         <LoginPage />
       </UserContext.Provider>
     );
+    //asd
     const boton = screen.getByRole("button");
     fireEvent.click(boton);
     expect(setUserMock).toHaveBeenCalledWith({
